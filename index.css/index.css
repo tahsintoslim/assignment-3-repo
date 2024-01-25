@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    
+}
+
+.pic-1{
+    display: block;
+    border: 5px solid transparent;
+    background-color: black;
+    color: white;
+    width: 566px;
+    height: 156px;
+    border-radius: 19px;
+    margin-left: 500px;
+    margin-top: 50px;
+    align-items: center;
+    text-align: left;
+    padding: 25px;
+}
+nav{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+div > ul{
+    display: flex;
+    width:360px;
+    justify-content: space-evenly;
+
+}
+
+.head-1{
+    align-items: center;
+    border: 5px solid transparent;
+    width: 200px;
+    justify-content:end;
+}
+.head-2{
+    border: 5px solid transparent;
+    width: 400px;
+    height: 45px;
+
+}
+.head-3{
+    border: 5px solid transparent;
+    width: 200px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*  main section*/
+.main-1{
+    padding: 20px;
+    border: 5px solid transparent;
+    width: 1170px;
+    height:150px;
+    margin-left:70px;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+.lor-1{
+    margin-left: 240px;
+    border: 5px solid transparent;
+    width: 607px;
+    height:52px;
+    align-items: center;
+
+}
+
+.moon{
+    display: flex;
+    border: 5px solid transparent;
+    width: 1100px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    justify-content: space-between;
+}
+.progress-1{
+    
+    width: 160px;
+    height: 160px;  
+    background: white
+    position: relative;
+    gap: 50px;
+  
+}
+.outer-1{
+    width: 160px;
+    height: 160px;  
+    border-radius: 50%;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    background-color:rgb(240, 19, 19);
+    stroke-dasharray: 472;
+    stroke-dashoffset: 200;
+
+}
+.inner-1{
+    width: 120px;
+    height: 120px;  
+    border-radius: 50%;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+                inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+                -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+                0.5px 0.5px 0px  rgba(0, 0, 0, 0.15),
+                0px 12px 10px -10px rgba(0, 0, 0, 0.5);
+   
+}
+
+
+
+.outer-2{
+    width: 160px;
+    height: 160px;  
+    border-radius: 50%;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    background-color: rgb(21, 150, 32);
+    stroke-dasharray: 472;
+    stroke-dashoffset: 200;
+
+}
+.inner-2{ 
+    left: 20px;
+    width: 120px;
+    height: 120px;  
+    border-radius: 50%;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+                inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+                -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+                0.5px 0.5px 0px  rgba(0, 0, 0, 0.15),
+                0px 12px 10px -10px rgba(0, 0, 0, 0.5);
+   
+}
+.moon .progress-1.circle{
+    fill: none;
+    stroke: aqua;
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 100;
+
+
+}
+.moon .progress-1.svg {
+   position: relative;
+    top: 0;
+    left:0;
+
+}
+.moon .progress-2.circle {
+    fill: none;
+    stroke: aqua;
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 100;
+
+
+}
+.moon .progress-2.svg{
+   position: relative;
+    top: 0;
+    left:0;
+
+}
+
+
+.main-2{
+    padding: 20px;
+    border: 5px solid transparent;
+    width: 1170px;
+    height:150px;
+    margin-left:70px;
+    margin-bottom: 70px;
+    text-align: center;
+    
+}
+.lor-2{
+    margin-left: 240px;
+    border: 5px solid transparent;
+    width: 607px;
+    height:52px;
+    align-items: center;
+
+}
+.img-1{
+    display: flex;
+    grid-template-rows: auto;
+    padding: 40px;
+    gap: 40px;
+}
+.img-2{
+    background-image: url(../Images/2.png);
+    width: 573px;
+    Height:338px;
+}
+.img-3{
+
+    background-image: url(../Images/3.png);
+    width: 573px;
+    Height:338px;
+}
+.img-4{
+   margin-left: 60px;
+   margin-bottom: 40px;
+    background-image: url(../Images/4.png);
+    Width:1170px;
+    Height:450px;
+}
+.text-1{
+    align-items: center;
+    justify-content:center;
+    padding: 90px;
+}
+.btn-primary{
+    margin: 20px;
+    padding: auto;
+    background-color: rgba(255, 66, 64, 1);
+    width: 170px;
+    height: 40px;
+    border-radius: 9px;
+}
+.main-3{
+    padding: 20px;
+    border: 5px solid transparent;
+    width: 1170px;
+    height:150px;
+    margin-left:70px;
+    margin-bottom: 70px;
+    text-align: center;
+    
+}
+.lor-3{
+    margin-left: 240px;
+    border: 5px solid transparent;
+    width: 607px;
+    height:52px;
+    align-items: center;
+
+}
+.main-4{
+    padding: 20px;
+    border: 5px solid transparent;
+    width: 1170px;
+    height:150px;
+    margin-left:70px;
+    margin-bottom: 70px;
+    text-align: center;
+    
+}
+.lor-4{
+    margin-left: 240px;
+    border: 5px solid transparent;
+    width: 607px;
+    height:52px;
+    align-items: center;
+
+}
+
+
+
+
+
+circle-4{
+    fill: none;
+    stroke: rgb(171, 206, 19);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 100;
+   margin-top: 0px;
+}
+circle-3{
+    fill: none;
+    stroke: rgb(43, 45, 185);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 100;
+   margin-top: 0px;
+}
+circle-2{
+    fill: none;
+    stroke: rgb(224, 21, 21);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 100;
+   margin-top: 0px;
+}
+circle-1{
+    fill: none;
+    stroke: rgb(141, 31, 31);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 100;
+   margin-top: 0px;
+}
+svg-4{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+svg-3{
+    position: absolute;
+    top: 0;
+    left: 20;
+}svg-2{
+    position: absolute;
+    top: 0;
+    left: 0;
+}svg-1{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.naves{
+    display: grid;
+    width: auto;
+    height: max-content;
+
+}
+.coms{
+    display: flex;
+    width: auto;
+    height: max-content;
+}
+.comss{
+    display: grid;
+    width: 474px;
+    height: max-content;
+
+}
